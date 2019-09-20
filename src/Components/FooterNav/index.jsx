@@ -17,6 +17,3 @@ export default class FooterNav extends Component {
         );
     }
 }
-
-// ReactDOM.render((     <BrowserRouter>     </BrowserRouter> ),
-// document.getElementById('root'))

@@ -8,7 +8,9 @@
         "react-dom": "^16.9.0",
         "react-router": "^5.0.1",
         "react-router-dom": "^5.0.1",
-        "react-scripts": "3.1.1"
+        "react-scripts": "3.1.1",
+        "sweetalert2": "^8.17.6",
+        "swiper": "^5.0.3"
     },
     "scripts": {
         "build:css": "postcss src/styles/index.css -o src/index.css",
