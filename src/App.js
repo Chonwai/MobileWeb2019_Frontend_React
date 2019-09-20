@@ -7,6 +7,7 @@ import Header from "./Components/Header/index"
 import {Route, BrowserRouter} from "react-router-dom";
 import Post from "./Views/Post/index"
 import Home from "./Views/Home/index"
+import About from "./Views/About/index"
 
 function App() {
     const routerView = {
@@ -19,6 +20,7 @@ function App() {
                 <div id="router-view" className="router-view mt-14 pb-14 overflow-scroll" style={routerView}>
                     <Route exact path="/" component={Home}></Route>
                     <Route path="/post" component={Post}></Route>
+                    <Route path="/about" component={About}></Route>
                 </div>
                 <FooterNav className="h-14"/>
             </div>

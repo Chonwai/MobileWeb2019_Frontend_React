@@ -13,6 +13,9 @@ export default class FooterNav extends Component {
                 <Link className="flex-1 flex justify-center items-center h-full" to="/post">
                     Post
                 </Link>
+                <Link className="flex-1 flex justify-center items-center h-full" to="/about">
+                    About
+                </Link>
             </footer>
         );
     }
